@@ -47,7 +47,15 @@ Zhihao Yang:
   - label: Website
     url: http://faculty.dlut.edu.cn/zhyang_CS/zh_CN/
 
-
+Yingwen Zhao:
+  name: Yingwen Zhao
+  role: PhD
+  semantic_scholar_id: '1729201519'
+  avatar: /assets/images/bio/赵颖闻.jpg
+  date: 2019-
+  bio: Protein biological function prediction
+  alumni: false
+  
 
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
