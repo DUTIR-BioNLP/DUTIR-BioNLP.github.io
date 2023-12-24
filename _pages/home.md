@@ -3,7 +3,6 @@ permalink: /
 title: "DUTIR-BioNLP"
 layout: splash
 header:
-    overlay_filter: rgba(237, 27, 47, 0.3)
     overlay_image: /assets/images/dut.jpg
     actions:
         - label: "GitHub"
