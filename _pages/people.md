@@ -5,19 +5,21 @@ layout: archive
 ---
 
 
-### Faculty
+### Professors/Faculty
 
-<!-- {% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %} -->
+<!-- {% include card-authors-with-role.html authors=site.data.authors role="Professors" alumni=false %} -->
 
-{% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Professors" alumni=false %}
 
-### Adjunct Faculty
+### Associate Professors/Adjunct Faculty
 
-{% include card-authors-with-role.html authors=site.data.authors role="Adjunct Faculty" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Associate Professors" alumni=false %}
 
+<!--
 ### Postdocs
 
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=false %}
+-->
 
 ### PhD Students
 
@@ -27,19 +29,24 @@ layout: archive
 
 {% include card-authors-with-role.html authors=site.data.authors role="Master" alumni=false %}
 
+<!--
 ### Undergraduate Students
 
 {% include card-authors-with-role.html authors=site.data.authors role="Undergraduate" alumni=false %}
+
 
 ### Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=false %}
 
+-->
+
+
 ---
 
 # Alumni
 
-
+<!--
 ### Postdocs
 
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=true %}
@@ -59,3 +66,4 @@ layout: archive
 ### Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=true %}
+-->

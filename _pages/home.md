@@ -1,36 +1,36 @@
 ---
 permalink: /
-title: "McGill Natural Language Processing"
+title: "DUTIR-BioNLP"
 layout: splash
 header:
     overlay_filter: rgba(237, 27, 47, 0.3)
-    overlay_image: /assets/images/trottier.jpg
+    overlay_image: /assets/images/dut.jpg
     actions:
         - label: "GitHub"
-          url: "https://github.com/McGill-NLP"
-        - label: "Twitter"
-          url: "https://twitter.com/McGill_NLP"
+          url: "https://github.com/DUTIR-BioNLP"
+        - label: "DUTIR"
+          url: "https://ir.dlut.edu.cn/"
 
-excerpt: "McGill NLP is a research group within McGill University and Mila focusing on various topics in natural language processing."
+excerpt: "DUTIR-BioNLP is a Biomedical Natural Language Processing Research Group in the Information Retrieval Laboratory at Dalian University of Technology (DUTIR-BioNLP)."
 
 row_research:
-  - image_path: /assets/images/home/poster-1.jpg
+  - image_path: /assets/images/home/home_1.jpg
     url: /publications
     alt: "Poster Presentation"
-    title: "Research"
+    title: "Welcome"
     btn_label: "Publications"
     btn_class: "btn--primary"
-    excerpt: "We work on various topics, including semantic parsing, question answering, reading comprehension, and conversational systems. We present our works in Computational Linguistics, NLP and ML conferences and journals."
+    excerpt: "Welcome to the Biomedical Natural Language Processing Research Group in the Information Retrieval Laboratory at Dalian University of Technology (DUTIR-BioNLP)! Our research interests focus on AI for health, including Biomedical Natural Language Processing, Text Mining, and Machine Learning. Our research goal is to develop computational methods and tools to better understand the natural language in biomedical text in order to accelerate knowledge discovery and improve human health."
 
 row_code:
   - image_path: /assets/images/home/github.jpg
     url: https://github.com/McGill-NLP
     alt: "Our GitHub page"
-    title: "Open-Source Code"
+    title: "News"
     btn_label: "GitHub"
     btn_class: "btn--primary"
-    excerpt: "We publish code for our models and datasets on GitHub to make it easier for researchers and developers to reproduce and build upon our work. We welcome pull requests and issues on active projects from the community."
-  
+    excerpt: "[09/29/2023] We are excited to share the news that we developed Taiyi, A Bilingual (Chinese and English) Biomedical Large Language Model Finetuned with Rich Biomedical Data."
+'''  
 row_about_us:
   - image_path: /assets/images/home/lunch-1.jpeg
   - image_path: /assets/images/home/jackie-axes-2019.jpg
@@ -41,7 +41,7 @@ row_about_us:
   - image_path: /assets/images/home/benno-acl-2022.jpg
   - image_path: /assets/images/home/nick-acl-2022.jpg
   - image_path: /assets/images/home/vaibhav-acl-2022.jpg
-
+'''
 
 ---
 {% comment %}
