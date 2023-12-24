@@ -97,10 +97,133 @@ Ling Luo:
 Yingwen Zhao:
   name: Yingwen Zhao
   role: PhD
-  semantic_scholar_id: '1729201519'
   avatar: /assets/images/bio/赵颖闻.jpg
   note: 2019-
   bio: Protein biological function prediction
   alumni: false
-  
 
+Peng Chen:
+  name: Peng Chen
+  role: PhD
+  avatar: /assets/images/bio/陈鹏.png
+  note: 2020-
+  bio: Information extraction
+  alumni: false
+
+Yunzhi Qiu:
+  name: Yunzhi Qiu
+  role: PhD
+  avatar: /assets/images/bio/yunzhiqiu.jpg
+  note: 2021-
+  bio: Adverse drug reactions, Information extraction
+  alumni: false
+
+Weiru Fu:
+  name: Weiru Fu
+  role: PhD
+  avatar: /assets/images/bio/weirufu.png
+  note: 2022-
+  bio: Information extraction
+  alumni: false
+
+Dinghao Pan:
+  name: Dinghao Pan
+  role: PhD
+  avatar: /assets/images/bio/潘丁豪.jpg
+  note: 2023-
+  bio: Information extraction
+  alumni: false
+
+Yan Zhang:
+  name: Yan Zhang
+  role: Master
+  avatar: /assets/images/bio/张燕.jpg
+  note: 2021-
+  bio: Relation extraction
+  alumni: false
+
+Kaiyuan Shi:
+  name: Kaiyuan Shi
+  role: Master
+  avatar: /assets/images/bio/史凯元.jpg
+  note: 2021-
+  bio: Drug recommendation
+  alumni: false
+
+Haoran Ji:
+  name: Haoran Ji
+  role: Master
+  avatar: /assets/images/bio/haoranji.png
+  note: 2021-
+  bio: Text classification
+  alumni: false
+
+Hao Li:
+  name: Hao Li
+  role: Master
+  avatar: /assets/images/bio/李浩.jpg
+  note: 2022-
+  bio: Adverse drug reactions
+  alumni: false
+
+Yuqi Liu:
+  name: Yuqi Liu
+  role: Master
+  avatar: /assets/images/bio/刘宇奇.jpg
+  note: 2022-
+  bio: Relation extraction
+  alumni: false
+
+Wenduo Feng:
+  name: Wenduo Feng
+  role: Master
+  avatar: /assets/images/bio/wenduofeng.png
+  note: 2022-
+  bio: Information retrieval
+  alumni: false
+
+Yongle Kong:
+  name: Yongle Kong
+  role: Master
+  avatar: /assets/images/bio/yongleigong.png
+  note: 2023-
+  bio: Information extraction
+  alumni: false
+
+Yongle Kong:
+  name: Yongle Kong
+  role: Master
+  avatar: /assets/images/bio/yongleigong.png
+  note: 2023-
+  bio: Information extraction
+  alumni: false
+
+Yingying Le:
+  name: Yingying Le
+  role: Master
+  avatar: /assets/images/bio/yingyingle.png
+  note: 2023-
+  bio: Information extraction
+  alumni: false
+
+Jiewei Qi:
+  name: Jiewei Qi
+  role: Master
+  avatar: /assets/images/bio/祁杰蔚.jpg
+  note: 2023-
+  bio: Information extraction
+  alumni: false
+
+Yinpeng Ning:
+  name: Yinpeng Ning
+  role: Master
+  avatar: /assets/images/bio/宁英鹏.jpg
+  note: 2023-
+  alumni: false
+
+Yuliang Gao:
+  name: Yuliang Gao
+  role: Master
+  avatar: /assets/images/bio/高粱育.jpg
+  note: 2023-
+  alumni: false
