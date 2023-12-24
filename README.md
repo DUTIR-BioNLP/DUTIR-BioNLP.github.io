@@ -23,13 +23,6 @@ To get started, [click here to open the issue forms](https://github.com/McGill-N
 > * *If you made a mistake but already submitted the form, please see how to correct it in [FAQ](#FAQ).*
 > * *If you are looking to build a project website/webpage for your paper, check out the [project page template](https://github.com/McGill-NLP/project-page-template), which has the same style as this website.*
 
-## Steps to contribute
-
-For other types of contribution (not covered by the issue form), please follow these steps:
-1. [Fork](https://github.com/McGill-NLP/mcgill-nlp.github.io/fork) the repository.
-2. Add your contribution by editing the desired files.
-3. Create a pull request: Click on the [Pull Request](https://github.com/McGill-NLP/mcgill-nlp.github.io/pulls) tab and select "New pull request". Select the repository you forked and modified.
-4. Wait for a team member to review and merge your pull request.
 
 ## Add new member profile
 
@@ -123,23 +116,7 @@ You may want to add new content: blog post, a new publication (abstract/more inf
 To add a *publication*, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/papers` directory](_posts/papers). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
 
 Every file should start with the following:
-```yaml
----
-title: "My cool paper" # Add official title
-author: <full name> # Add name to show profile in sidebar
-categories: Publications # Used to list all posts about publications in /publications/
-names: "Firstname lastname, Firstname lastname, ..." # names of all authors
-link: https://arxiv.org/abs/1234.5678 # link to paper
-code: https://github.com/McGill-NLP/example  # link to code (optional)
-webpage: https://mcgill-nlp.github.io/project  # link to project (optional)
-video: https://youtube.com  # link to video (optional)
-twitter: https://twitter.com/username  # link to twitter thread (optional)
-demo: https://project-demo.com  # link to interactive demo (optional)
-thumbnail: /assets/images/papers/figure.jpg  # link to a thumbnail (optional)
-venue: ACL 2022  # venue and year of the paper
-tags: ACL # tag of the paper (exclude year, use shorthand)
----
-```
+
 
 Then, it should be followed with the content in markdown:
 
@@ -158,7 +135,6 @@ In our cool paper, we propose a new state-of-the-art method to detect if an imag
 
 It will look like this in `/publications/`:
 
-![Showing new post in the publication page](.github/images/demo-publication.jpg)
 
 
 Notes:
@@ -172,129 +148,7 @@ Notes:
   * resolution of about 800x600, 
   * taken from your paper.
 
-### Blog
 
-To write a blog post, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/blog` directory](_posts/blog). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
-
-Every file should start with the following:
-```yaml
----
-title: "My cool blog post" # Add title
-author: <username> # Add your name (see above)
-categories: # Used to list all blog posts in /blog/
-  - Blog
-tags: # Choose tag(s) not clashing with a conference name (optional)
-  - Pytorch
-excerpt_separator: "<!--more-->"  # Separate the excerpt from the body (optional)
-last_modified_at: "2016-03-09" # Add modification date if relevant (optional)
----
-```
-
-Followed by the content in markdown:
-
-```markdown
-*Your summary here will be previewed on `/publications/`*
-
-<!--more-->
-
-Some starting statement
-
-## Section in the paper
-
-More content.
-```
-
-### Teaching
-To write a course description, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/teaching` directory](_posts/teaching). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
-
-```yaml
----
-title: "COMP XYZ - Semester YYYY"  # Add course code, followed by the semester it's taught
-author: Siva Reddy  # Name of the instructor
-categories:
-  - Teaching  # Used to list all posts describing a course in /teaching/
-tags:
-  - Winter 2022  # Semester
-link: "https://docs.google.com/document/d/..." # Link to an external course description
----
-```
-
-Then, add content relevant to the course using markdown below the `---`, e.g.:
-
-```markdown
-*summary here*
-
-## Syllabus
-
-Content of syllabus here
-
-```
-
-
-### Deleting a post
-
-You may want to delete posts forever. Then, delete the file in `_posts/`. If you simply want to hide it, you can prepend the file name with `hide`. For example, to hide the file `2016-03-09-COMP-XYZ.md`, you can rename it to `hide-2016-03-09-COMP-XYZ.md`.
-
-
-## Create a profile page
-
-> [!NOTE]
-> *If you are having a hard time in this section, try to copy from someone else's profile and modify it.*
-
-To have your own profile, you can create a new file called `<username>.md` in the [`_pages_/profiles` directory](_pages_/profiles). Note that `<username>` will determine the URL of the file, so choose carefully. You will need to add the following at the top:
-```yaml
----
-title: John Doe  # Add your name
-permalink: /people/john/  # Add your username
-layout: archive
-classes:
-    - wide
-    - no-sidebar
----
-```
-Then, you can add any content you like using markdown:
-
-```markdown
-Welcome to John Doe's personal profile!
-
-## Publications
-
-<div>
-  {% include posts-publication.html taxonomy="Publications" author="John Doe" %}
-</div>
-
-## Teaching
-
-<div>
-  {% include posts-category.html taxonomy="Teaching" author="John Doe" %}
-</div>
-
-## Blog posts
-
-<div>
-  {% include posts-category.html taxonomy="Blog" author="John Doe" %}
-</div>
-
-## Contact
-
-Here's how to contact John Doe: ...
-```
-
-Note that by using `{% include posts-publication.html taxonomy="Publications" author="John Doe" %}`, you can display all posts about publications by filtering for "John Doe" in the `names` field of each publication. If you choose `{% include posts-category.html taxonomy="Teaching" author="John Doe" %}`, you can display all posts about teaching instead, and `taxonomy="Blog"` will display all posts about blog posts. Note that `posts-publication.html` and `posts-category.html` are special html files in `_includes/` that generate a list of post following a specific format. That's a Jekyll feature and is considered as an advanced feature, so you don't have to worry and can just directly use it like above.
-
-Then, you can update `_data/authors.yml` to include a link to your profile page, e.g.:
-```yaml
-John Doe:
-  name: "John Doe"
-  # ...
-  links:
-    - label: "Page"
-      url: "/people/siva"
-      icon: "fas fa-fw fa-user"
-    - label: "Github"
-      url: "..."
-    #...
-```
 
 ## Advanced
 
