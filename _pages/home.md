@@ -9,7 +9,8 @@ header:
           url: "https://ir.dlut.edu.cn/"
         - label: "GitHub"
           url: "https://github.com/DUTIR-BioNLP"
-
+        - label: "HuggingFace"
+          url: "https://huggingface.co/DUTIR-BioNLP"
 
 excerpt: "DUTIR-BioNLP is a Biomedical Natural Language Processing Research Group in the Information Retrieval Laboratory at Dalian University of Technology (DUTIR-BioNLP)."
 
