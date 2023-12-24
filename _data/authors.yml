@@ -26,14 +26,27 @@ Hongfei Lin:
   semantic_scholar_id: '3159752'
   avatar: /assets/images/bio/hongfeilin.jpg
   date: '2015'
-  bio: Associate Professor
+  #bio: Associate Professor
   alumni: false
   links:
   - label: Website
     url: http://faculty.dlut.edu.cn/linhongfei/zh_CN/index.htm
   - label: Scholar
-    icon: "fas fa-fw fa-graduation-cap"
+    icon: "fab fa-google"
     url: https://scholar.google.com/citations?user=kV68br0AAAAJ&hl=en
+
+
+Zhihao Yang:
+  name: Zhihao Yang
+  role: Professors
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/yang-1.jpg
+  date: '2015'
+  #bio: Associate Professor
+  alumni: false
+  links:
+  - label: Website
+    url: http://faculty.dlut.edu.cn/zhyang_CS/zh_CN/
 
 
 

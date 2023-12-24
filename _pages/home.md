@@ -5,10 +5,12 @@ layout: splash
 header:
     overlay_image: /assets/images/dut.jpg
     actions:
-        - label: "GitHub"
-          url: "https://github.com/DUTIR-BioNLP"
         - label: "DUTIR"
           url: "https://ir.dlut.edu.cn/"
+        - label: "GitHub"
+          url: "https://github.com/DUTIR-BioNLP"
+         - label: "Hugging Face"
+          url: "https://huggingface.co/DUTIR-BioNLP"
 
 excerpt: "DUTIR-BioNLP is a Biomedical Natural Language Processing Research Group in the Information Retrieval Laboratory at Dalian University of Technology (DUTIR-BioNLP)."
 
@@ -45,10 +47,10 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 # Contact
 {: .text-center}
 
-DUTIR-BioNLP Research Group
-School of Computer Science and Technology, 
-Dalian University of Technology,
-Address: No.2 Linggong Road, Ganjingzi District, 
+DUTIR-BioNLP Research Group<br>
+School of Computer Science and Technology<br>
+Dalian University of Technology<br>
+Address: No.2 Linggong Road, Ganjingzi District<br>
 Dalian City, Liaoning Province, P.R.C., 116024
 
 {: .text-center}
