@@ -47,10 +47,10 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 # Contact
 {: .text-center}
 
-DUTIR-BioNLP Research Group<br>
-School of Computer Science and Technology<br>
-Dalian University of Technology<br>
-Address: No.2 Linggong Road, Ganjingzi District<br>
+DUTIR-BioNLP Research Group
+School of Computer Science and Technology
+Dalian University of Technology
+Address: No.2 Linggong Road, Ganjingzi District
 Dalian City, Liaoning Province, P.R.C., 116024
 
 {: .text-center}
