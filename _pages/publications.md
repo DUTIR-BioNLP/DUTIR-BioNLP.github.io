@@ -7,8 +7,12 @@ taxonomy: Publications
 # 2023
 
 
-<details>
-  <summary><b>Journal</b></summary>
+<details> <summary><b>Journal</b></summary>
+
+**test**
+
+test
+
 
 - Peng Chen, Jian Wang, Hongfei Lin, Di Zhao, Zhihao Yang. **Few-shot biomedical named entity recognition via knowledge-guided instance generation and prompt contrastive learning**. *Bioinformatics*, 2023, 39(8): btad496.[[paper]](https://doi.org/10.1093/bioinformatics/btad496)[[code]](https://github.com/cpmss521/KGPC)
 - Peng Chen, Jian Wang, Hongfei Lin, Yijia Zhang, Zhihao Yang. Knowledge Adaptive Multi-way Matching Network for Biomedical Named Entity Recognition via Machine Reading Comprehension. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023, 20(3): 2101-2111. [paper][code]
