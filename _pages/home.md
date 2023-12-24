@@ -23,11 +23,7 @@ row_code:
 
     title: "Research topics"
     btn_class: "btn--primary"
-    excerpt: "Biomedical information extraction
-Biomedical information retrieval
-Protein biological function prediction
-Adverse drug reactions & Drug recommendation
-LLM in healthcare"
+    excerpt: "Biomedical information extraction<br>Biomedical information retrieval<br>Protein biological function prediction<br>Adverse drug reactions & Drug recommendation<br>LLM in healthcare"
 
 row_about_us:
   - image_path: /assets/images/home/blackbuilding.jpg
@@ -50,17 +46,13 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 {: .text-center}
 
 DUTIR-BioNLP Research Group
-
 School of Computer Science and Technology, 
-
 Dalian University of Technology,
-
 Address: No.2 Linggong Road, Ganjingzi District, 
-
 Dalian City, Liaoning Province, P.R.C., 116024
 
 {: .text-center}
 
-{% include feature_row id="row_about_us" %}
+{% include feature_row id="row_about_us" type="center"  %}
 
 <a href="https://info.flagcounter.com/fwiM"><img src="https://s11.flagcounter.com/count2/fwiM/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>

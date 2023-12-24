@@ -1,11 +1,11 @@
 main:
+  - title: "News"
+    url: /news/
   - title: "People"
     url: /people/
   - title: "Publications"
     url: /publications/
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Resources&Tools"
+    url: /resources&tools/
   - title: "Blog"
     url: /blog/
-  - title: "Contact"
-    url: /contact/
