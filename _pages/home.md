@@ -30,7 +30,7 @@ row_code:
     btn_label: "GitHub"
     btn_class: "btn--primary"
     excerpt: "[09/29/2023] We are excited to share the news that we developed Taiyi, A Bilingual (Chinese and English) Biomedical Large Language Model Finetuned with Rich Biomedical Data."
-'''  
+<!--  
 row_about_us:
   - image_path: /assets/images/home/lunch-1.jpeg
   - image_path: /assets/images/home/jackie-axes-2019.jpg
@@ -41,7 +41,7 @@ row_about_us:
   - image_path: /assets/images/home/benno-acl-2022.jpg
   - image_path: /assets/images/home/nick-acl-2022.jpg
   - image_path: /assets/images/home/vaibhav-acl-2022.jpg
-'''
+-->
 
 ---
 {% comment %}
