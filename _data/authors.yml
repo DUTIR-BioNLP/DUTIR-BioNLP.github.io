@@ -47,15 +47,59 @@ Zhihao Yang:
   - label: Website
     url: http://faculty.dlut.edu.cn/zhyang_CS/zh_CN/
 
+
+Jian Wang:
+  name: Jian Wang
+  role: Professors
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/jianwang.png
+  date: '2015'
+  bio: Professor
+  alumni: false
+  links:
+  - label: Website
+    url: http://faculty.dlut.edu.cn/DUTIRWang/zh_CN/index.htm
+
+
+Bo Xu:
+  name: Bo Xu
+  role: Associate Professors
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/xubo-2.jpg
+  date: '2015'
+  bio: Associate Professors
+  alumni: false
+  links:
+  - label: Website
+    url: http://faculty.dlut.edu.cn/xubo1/zh_CN/index.htm
+
+Ling Luo:
+  name: Ling Luo
+  role: Associate Professors
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/ling.jpg
+  date: '2015'
+  bio: Associate Professors
+  alumni: false
+  links:
+  - label: Website
+    url: http://faculty.dlut.edu.cn/xubo1/zh_CN/index.htm
+  - label: "Scholar"
+    icon: "fab fa-google"
+    url: "https://scholar.google.com/citations?user=iw32leEAAAAJ&hl=en"
+  - label: "GitHub"
+    url: "https://github.com/lingluodlut"
+  - label: "Twitter"
+    url: "https://twitter.com/robert_dlut"
+
+
 Yingwen Zhao:
   name: Yingwen Zhao
   role: PhD
   semantic_scholar_id: '1729201519'
   avatar: /assets/images/bio/赵颖闻.jpg
   note: 2019-
-  bio: |
-    2019-
-    Protein biological function prediction"
+  bio: Protein biological function prediction
   alumni: false
   
 
