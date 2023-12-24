@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: McGill NLP
+title: DUTIR-BioNLP
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  McGill NLP is a research group within McGill University and Mila focusing on various topics of natural language processing. 
-twitter_username: McGill_NLP
-github_username: McGill-NLP
+  DUTIR-BioNLP is a Biomedical Natural Language Processing Research Group in the Information Retrieval Laboratory at Dalian University of Technology (DUTIR-BioNLP). 
+twitter_username: DUTIR-BioNLP
+github_username: DUTIR-BioNLP
 logo: "/assets/images/logo/logo.png"
 og_image: "/assets/images/logo/logo.png"
 dark_theme_css: "/assets/css/main-dark.css"
@@ -55,25 +55,20 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "McGill NLP Member(s)"
+  name   : "DUTIR-BioNLP Member(s)"
   avatar : "/assets/images/bio/placeholder/martlet.jpeg"
   bio    : "Current or former lab member(s) worked on this."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://mcgill-nlp.github.io"
+      url: "https://dutir-bionlp.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/McGill-NLP"
+      url: "https://github.com/DUTIR-BioNLP"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/McGill_NLP"
+      url: "https://twitter.com/DUTIR-BioNLP"
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-MEDG9XN4VP"
-    anonymize_ip: false # default
 
 atom_feed:
   hide: true
@@ -82,10 +77,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/McGill-NLP"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/McGill_NLP"
+      url: "https://github.com/DUTIR-BioNLP"
+    - label: "Hugging Face"
+      icon: "fab fa-fw fa-huggingface-square"
+      url: "https://huggingface.co/DUTIR-BioNLP"
 
 defaults:
   # _pages
