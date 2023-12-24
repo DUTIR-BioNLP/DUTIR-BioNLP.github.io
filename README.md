@@ -1,10 +1,9 @@
-# McGill NLP Website
+# DUTIR-BioNLP Website
 
-### [➡️ Click Here to Add Your Profile or Paper ⬅️](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new/choose)
 
 <br>
 
-This is the source code of the [group website](https://mcgill-nlp.github.io/), which was built using [Jekyll](https://github.com/jekyll/jekyll) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
+This is the source code of the [group website](https://dutir-bionlp.github.io/), which was built using [Jekyll](https://github.com/jekyll/jekyll) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
 
 ## Quickstart
 
@@ -400,41 +399,3 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 - [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
 - [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
 
-### Running tests
-
-There are some tests for the python scripts. You can run them by running the following command in the root folder:
-```bash
-python -m unittest
-```
-
-## FAQ
-
-> I created a post but it doesn't show up. What's wrong?
-
-Make sure it is in the right directory, and that the file name is correct. The file name should be `<YYYY>-<MM>-<DD>-<shorthand>.md`; this is not a convention or a preference, it is actually **needed** to render that file.
-
-> I made a mistake when filling the form. How can I fix it?
-
-After you fill the form, an issue is created with an appropriate *tag*. Then, a pull request (which is a "proposal" to make a change) is automatically created from that *tag*, based on the content of the issue. But if you made a mistake, then that PR is incorrect. So you should try to close it, or request the PR to be closed in a reply. Then, all you need to do is to modify the issue's content (makes sure the formatting stays the same, that's very important!). Once it's updated, you can remove the *tag*, refresh the page, then add back the same *tag*. This will create a new pull request, and a maintainer will review it.
-
-> When using `src/python/add_publications_by_author.py`, it keeps adding a paper I already added (or I want to ignore). How can I make it stop doing that?
-
-Add the semantic scholar paper ID to the list in `records/semantic_paper_ids_ignored.json`.
-
-
-> When filling out the form, how do I upload my profile picture or a thumbnail without having to use an external source, like imgur?
-
-1. Open a [new blank issue](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new). 
-2. Click on "Attach files by dragging & dropping, selecting, or pasting them".
-3. Upload your picture. 
-4. Copy only the URL link (i.e. `https://user-images.githubusercontent.com/...png` only). Ignore the rest (i.e. `![text]()`).
-5. Keep the link, but cancel the new issue. Paste that link in the form.
-
-> The tests in `test_add_publications_by_author.py` are failing. What should I do?
-
-Sometimes, semantic scholar will update the content of the paper. In that case, the failed tests have saved the new versions of those papers in `tests/scratch/_posts/papers`, and you will need to replace the old versions in `tests/data/add_publication_by_author/<author_name>` with the new versions in `tests/scratch/_posts/papers`. You can do that by running the following command:
-```bash
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/siva
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/jackie
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/tim
-```
