@@ -1,0 +1,46 @@
+div.publication-card {
+    display: inline-block;
+    width: 100%;
+}
+
+div.publication-thumbnail>img {
+    float: left;
+    padding: 0 15px 15px 0;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 4/3;
+    @media (min-width: 601px) {
+        max-width: 300px;
+    }
+    @media (max-width: 600px) {
+        max-width: 100%;
+    }
+}
+
+div.publication-authors {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+
+.publication-title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    >a {
+        text-decoration: none;
+    }
+}
+
+.publication-ext-link {
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.publication-links {
+    margin-top: 10px;
+}
+

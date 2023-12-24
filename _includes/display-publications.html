@@ -1,0 +1,40 @@
+<div class="publication-card">
+    <article itemscope itemtype="https://schema.org/CreativeWork">
+
+        {% if post.thumbnail %}
+        <div class="publication-thumbnail">
+            <img src="{{ post.thumbnail | relative_url }}" alt="">
+        </div>
+        {% endif %}
+
+        <h2 class="publication-title" itemprop="headline">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        {% if post.names %}
+        <div class="publication-authors">
+            {{ post.names }}
+        </div>
+        {% elsif post.author %}
+        <div class="publication-authors">
+            {{ post.author }}
+        </div>
+        {% endif %}
+
+        {% if post.course_code %}
+        <div>
+            <b>{{ post.course_code }}</b>
+            <b> ({{ post.term | date: "%Y"}}) </b>
+        </div>
+        {% else %}
+        <div>
+            {% if post.venue %}
+            <b> {{ post.venue }} </b>
+            {% endif %}
+            <b> ({{ post.date | date: "%Y" }}) </b>
+        </div>
+        {% endif %}
+
+        {% include display-publication-links.html pub=post%}
+    </article>
+</div>

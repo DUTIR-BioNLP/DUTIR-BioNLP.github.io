@@ -1,0 +1,56 @@
+name: "Parse and process issue forms"
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  process-issue-forms:
+    if: startsWith(github.event.label.name, 'automatic-')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+
+      - name: Install Python requirements
+        run: pip install -r src/python/requirements.txt
+
+      - name: "Update _data/authors.yml with src/python/add_update_member.py"
+        if: github.event.label.name == 'automatic-add-update-member'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python -m src.python.add_update_member
+      
+      - name: "Create post in _posts/papers with src/python/add_update_publication.py"
+        if: github.event.label.name == 'automatic-add-update-publication'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python -m src.python.add_update_publication
+      
+      - name: "Create post in _posts/papers with src/python/add_publication_by_id.py"
+        if: github.event.label.name == 'automatic-add-publication-by-id'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python -m src.python.add_publication_by_id
+      
+      - name: "Create posts in _posts/papers with src/python/add_publications_by_author.py"
+        if: github.event.label.name == 'automatic-add-publications-by-author'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python -m src.python.add_publications_by_author
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          delete-branch: true
+          branch-suffix: timestamp
+          commit-message: "[GH Actions] ${{ github.event.label.name }}"
+          title: "[Automatic PR] ${{ github.event.issue.title }}"
+          body: >
+            Closes #${{ github.event.issue.number }}. This pull request was 
+            automatically created through GitHub Actions.
+          branch: "gh-actions/process-form-issue-${{ github.event.issue.number }}"

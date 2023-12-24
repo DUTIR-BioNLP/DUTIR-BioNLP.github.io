@@ -1,0 +1,11 @@
+main:
+  - title: "People"
+    url: /people/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
