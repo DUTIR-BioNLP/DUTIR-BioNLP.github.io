@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "DUTIR-BioNLP"
+title: "DUTIR-BioNLP Group"
 layout: splash
 header:
     overlay_image: /assets/images/dut.jpg
