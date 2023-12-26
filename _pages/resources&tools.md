@@ -16,4 +16,4 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 {% endcomment %}
 
 
-{% include feature_row id="row_taiyi" type="left" %}
+{% include feature_row id="row_taiyi" type="left" font-size=0.6em %}
