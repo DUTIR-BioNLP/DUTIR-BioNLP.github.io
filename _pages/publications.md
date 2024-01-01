@@ -5,7 +5,7 @@ taxonomy: Publications
 ---
 # Content
 
-[[2023]](#2023)  [[2022]](#2022)  [[2021]](#2021)
+[[2023]](#2023)  [[2022]](#2022)  [[Early]](#Early)
 
 # 2023
 <a name="2023"></a>
@@ -31,7 +31,11 @@ taxonomy: Publications
 1. Yingwen Zhao, Zhihao Yang, Yongkai Hong, Lei Wang, Yin Zhang, Hongfei Lin, and Jian Wang. **Adaptive Multi-view Graph Convolutional Network for Gene Ontology Annotations of Proteins**[C]. *In IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*. 2022, 90-93. [[paper]](https://ieeexplore.ieee.org/abstract/document/9995517)[[code]](https://github.com/Candyperfect/Master)
 1. Dinghao Pan, Zhihao Yang, Haixin Tan, Jiangming Wu and Hongfei Lin. **Dialogue Topic Extraction as Sentence Sequence Labeling** [C]. *In Natural Language Processing and Chinese Computing (NLPCC)*, 2022, 13552: 252-262. [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-17189-5_21)
 
-# 2021
-<a name="2021"></a>
+# Early Selected Publications
+<a name="Early"></a>
 
 1. Peng Chen, Jian Wang, Hongfei Lin, Yijia Zhang, Zhihao Yang, Di Zhao, Hui Ma. **Co-attentive span network with multi-task learning for biomedical named entity recognition** [C]. *In IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*, 2021, 649–652. [[paper]](https://doi.org/10.1109/BIBM52615.2021.9669749)[[code]](https://github.com/cpmss521/CASN)
+2. Ling Luo, Zhihao Yang, Mingyu Cao, Lei Wang, Yin Zhang and Hongfei Lin. **A neural network-based joint learning approach for biomedical entity and relation extraction from biomedical literature** [J]. *Journal of Biomedical Informatics*, 2020, 103: 103384. [[paper]](https://www.sciencedirect.com/science/article/pii/S1532046420300113)
+3. Ling Luo, Zhihao Yang, Yawen Song, Nan Li and Hongfei Lin. **Chinese Clinical Named Entity Recognition Based on Stroke ELMo and Multi-Task Learning** [J]. *Chinese Journal of Computers*, 2020, 43(10): 1943-1957. (In Chinese) [[paper]](http://cjc.ict.ac.cn/online/onlinepaper/ll-2020925185620.pdf)
+2. Ling Luo, Zhihao Yang, Pei Yang, Yin Zhang, Lei Wang, Hongfei Lin and Jian Wang. **An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition** [J]. *Bioinformatics*, 2018, 34(8): 1381–1388. [[paper]](https://doi.org/10.1093/bioinformatics/btx761)
+3. Zhehuan Zhao, Zhihao Yang, Ling Luo, Hongfei Lin, Jian Wang. **Drug drug interaction extraction from biomedical literature using syntax convolutional neural network** [J]. *Bioinformatics*, 2016, 32(22): 3444-3453. [[paper]](https://doi.org/10.1093/bioinformatics/btw486)
