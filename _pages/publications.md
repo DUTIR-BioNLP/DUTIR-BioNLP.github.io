@@ -5,7 +5,20 @@ taxonomy: Publications
 ---
 # Content
 
-[[2023]](#2023)  [[2022]](#2022)  [[Early]](#Early)
+[[2024]](#2024)  [[2023]](#2023)  [[2022]](#2022)  [[Early]](#Early)
+
+# 2024
+<a name="2024"></a>
+
+
+1. Ling Luo, Jinzhong Ning, Yingwen Zhao, et al. **Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks** [J]. *Journal of the American Medical Informatics Association*, February 2024, btad310. [[paper]](https://doi.org/10.1093/jamia/ocae037)[[code]](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
+1. Peng Chen, Jian Wang, Ling Luo, Hongfei Lin, Zhihao Yang. **Learning to explain is a good biomedical few-shot learner** [J]. *Bioinformatics*, 2024, 40(10): btae589. [[paper]](https://doi.org/10.1093/bioinformatics/btae589)
+1. Jiewei Qi, Ling Luo, Zhihao Yang, Jian Wang, Huiwei Zhou, Hongfei Lin. **An Improved Method for Phenotype Concept Recognition Using Rich HPO Information** [C]. *2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*, Lisbon, Portugal, 2024, 1135-1140. [[paper]](https://doi.org/10.1109/BIBM62325.2024.10822556). 
+1. Yongle Kong, Zhihao Yang, Ling Luo, Zeyuan Ding, Lei Wang, Wei Liu, Yin Zhang, Bo Xu, Jian Wang, Yuanyuan Sun, Zhehuan Zhao, Hongfei Lin. **Document Embeddings Enhance Biomedical Retrieval-Augmented Generation** [C]. *2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*, Lisbon, Portugal, 2024, 962-967. [[paper]](https://doi.org/10.1109/BIBM62325.2024.10822781).
+1. Jiru Li, Yuanyuan Sun, Zhihao Yang, Ling Luo, Lei Wang, Wei Liu, Yin Zhang, Bo Xu, Jian Wang, Yumeng Yang, Zhehuan Zhao, Hongfei Lin. **Biomedical Document-level Relation Extraction with Coreference and Anaphor Graphs** [C].  *2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*, Lisbon, Portugal, 2024, 982-987. [[paper]](https://doi.org/10.1109/BIBM62325.2024.10822781).
+1. Zeyuan Ding, Zhihao Yang, Ling Luo, Yuanyuan Sun, Hongfei Lin. **From Retrieval to Generation: A Simple and Unified Generative Model for End-to-End Task-Oriented Dialogue** [C]. *Proceedings of the AAAI Conference on Artificial Intelligence*, 38(16), 2024, 17907-17914. [[paper]](https://doi.org/10.1609/aaai.v38i16.29745)
+1. Jinzhong Ning, Yuanyuan Sun, Bo Xu, Zhihao Yang, Ling Luo, Hongfei Lin. **Breaking the Boundaries: A Unified Framework for Chinese Named Entity Recognition Across Text and Speech**  [C]. In *Findings of the Association for Computational Linguistics: EMNLP 2024*, pages 1250–1260, Miami, Florida, USA. Association for Computational Linguistics. [[paper]](https://aclanthology.org/2024.findings-emnlp.67)
+
 
 # 2023
 <a name="2023"></a>

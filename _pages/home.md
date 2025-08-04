@@ -24,7 +24,7 @@ row_code:
   - image_path: /assets/images/home/home_2.jpg
     title: "Research topics"
     btn_class: "btn--primary"
-    excerpt: "Biomedical information extraction<br>Biomedical information retrieval<br>Protein biological function prediction<br>Adverse drug reactions & Drug recommendation<br>LLM in healthcare"
+    excerpt: "Biomedical information extraction<br>Biomedical information retrieval<br>Protein biological function prediction<br>Adverse drug reactions & Drug recommendation<br>LLMs in healthcare"
 
 row_about_us:
   - image_path: /assets/images/home/blackbuilding.jpg
