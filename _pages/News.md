@@ -3,6 +3,4 @@ title: "News"
 permalink: /news/
 ---
 
-
-- [11/2023] Our teams achieved the second performances in Track 1: BioRED (Biomedical Relation Extraction Dataset) and Track 3: Track 3: Phenotype normalization (genetic conditions in pediatric patients) at the BioCreative VIII challenge.
-- [09/2023] We are excited to share the news that we developed [Taiyi](https://github.com/DUTIR-BioNLP/Taiyi-LLM) , a bilingual (Chinese and English) fine-tuned large language model for diverse biomedical tasks.
+- [08/2025] Our team achieved 1st place in the SemEval 2025 Task 10 Subtask 1: Entity Framing in three languages (English, Portuguese and Russian) and second place in Bulgarian. And our system paper received the Best System Description Award in task 10. 
