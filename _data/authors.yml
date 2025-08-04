@@ -36,19 +36,6 @@ Hongfei Lin:
     url: https://scholar.google.com/citations?user=kV68br0AAAAJ&hl=en
 
 
-Zhihao Yang:
-  name: Zhihao Yang
-  role: Professors
-  semantic_scholar_id: '3159752'
-  avatar: /assets/images/bio/yang-1.jpg
-  date: '2015'
-  bio: Professor
-  alumni: false
-  links:
-  - label: Website
-    url: http://faculty.dlut.edu.cn/zhyang_CS/zh_CN/
-
-
 Jian Wang:
   name: Jian Wang
   role: Professors
@@ -62,25 +49,13 @@ Jian Wang:
     url: http://faculty.dlut.edu.cn/DUTIRWang/zh_CN/index.htm
 
 
-Bo Xu:
-  name: Bo Xu
-  role: Associate Professors
-  semantic_scholar_id: '3159752'
-  avatar: /assets/images/bio/xubo-2.jpg
-  date: '2015'
-  bio: Associate Professors
-  alumni: false
-  links:
-  - label: Website
-    url: http://faculty.dlut.edu.cn/xubo1/zh_CN/index.htm
-
 Ling Luo:
   name: Ling Luo
-  role: Associate Professors
+  role: Professors
   semantic_scholar_id: '3159752'
   avatar: /assets/images/bio/ling.jpg
   date: '2015'
-  bio: Associate Professors
+  bio: Professors
   alumni: false
   links:
   - label: Website
@@ -93,6 +68,17 @@ Ling Luo:
   - label: "Twitter"
     url: "https://twitter.com/robert_dlut"
 
+Bo Xu:
+  name: Bo Xu
+  role: Professors
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/xubo-2.jpg
+  date: '2015'
+  bio: Associate Professors
+  alumni: false
+  links:
+  - label: Website
+    url: http://faculty.dlut.edu.cn/xubo1/zh_CN/index.htm
 
 Yingwen Zhao:
   name: Yingwen Zhao
