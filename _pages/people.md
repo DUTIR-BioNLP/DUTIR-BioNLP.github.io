@@ -13,7 +13,7 @@ layout: archive
 
 ### Associate Professors
 
-{% include card-authors-with-role.html authors=site.data.authors role="Associate Professors" alumni=false %}
+### {% include card-authors-with-role.html authors=site.data.authors role="Associate Professors" alumni=false %}
 
 
 ### PhD Students
