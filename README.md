@@ -1,6 +1,6 @@
 # DUTIR-BioNLP Website
 
-
+Chinese [Readme](PROJECT_STRUCTURE.md)
 <br>
 
 This is the source code of the [group website](https://dutir-bionlp.github.io/), which was built using [Jekyll](https://github.com/jekyll/jekyll) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
